@@ -1,0 +1,4 @@
+net\javaguides\springboot\tutorial\entity\Student.class
+net\javaguides\springboot\tutorial\repository\StudentRepository.class
+net\javaguides\springboot\tutorial\controller\StudentController.class
+net\javaguides\springboot\tutorial\Application.class
