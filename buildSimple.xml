@@ -1,0 +1,13 @@
+<project name="learnant" basedir=".">
+    <target name="echohelloworld">
+        <echo>Hello world!</echo>
+    </target>
+
+    <target name="cmdhelloworld">
+        <exec executable="cmd">
+            <arg value="/c"/>
+            <arg value="echo"/>
+            <arg value="hello world just simple"/>
+        </exec>
+    </target>
+</project>
