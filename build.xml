@@ -12,4 +12,7 @@
             <arg line="/c mvn clean install"/>
         </exec>
     </target>
+    <target name="build-jar">
+        <exec dir ="." command="./build.sh" />
+    </target>
 </project>
