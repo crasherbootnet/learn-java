@@ -1,5 +1,6 @@
 #!/bin/sh
 echo "Starting app"
+kill $( ps -aux | grep 'java -jar' | awk '{print $2}')
 cd ../clone
 echo "" > spring.log
 java -jar target/spring-boot.jar > spring.log &
