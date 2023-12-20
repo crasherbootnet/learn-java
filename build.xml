@@ -13,6 +13,6 @@
         </exec>
     </target>
     <target name="build-jar">
-        <exec dir ="." command="./build.sh" />
+        <exec dir ="." command="mvn clean install" />
     </target>
 </project>
